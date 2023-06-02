@@ -909,16 +909,6 @@ body {
   background-color: var(--hero-footer-bg-color);
 }
 
-/* @media screen and (max-width: 767px) {
-  .main-footer {
-    display: flex;
-    flex-direction: column;
-    gap: 72px;
-    justify-content: center;
-    align-items: center;
-  }
-} */
-
 .main-footer {
   display: flex;
   flex-direction: column;
