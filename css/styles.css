@@ -595,8 +595,10 @@ body {
   }
 }
 
-.features-item {
-  margin-bottom: 72px;
+@media screen and (max-width: 767px) {
+  .features-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
 }
 
 .features-item-title {
@@ -652,7 +654,6 @@ body {
 
   .features-item {
     flex-basis: calc((100% - 72px) / 4);
-    margin-bottom: 0;
   }
 
   .features-wrapper {
