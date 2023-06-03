@@ -45,7 +45,12 @@
 
         <!-- MOBILE MENU OPEN -->
 
-        <button type="button" class="mobile-menu-open-btn js-open-menu">
+        <button
+          type="button"
+          class="mobile-menu-open-btn js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg class="mobile-menu-open-icon" width="32" height="22">
             <use href="./images/icons.svg#icon-menu"></use>
           </svg>
@@ -67,7 +72,7 @@
         </address>
       </div>
 
-      <div class="mobile-menu js-menu-container">
+      <div class="mobile-menu js-menu-container" id="mobile-menu">
         <div class="mobile-menu-container">
           <button class="mobile-menu-close-btn js-close-menu">
             <svg class="mobile-menu-close-icon" width="8" height="8">
