@@ -162,8 +162,9 @@ body {
     padding-bottom: 40px;
 
     height: 100%;
-
     width: 100%;
+
+    overflow: auto;
   }
 
   .mobile-menu-close-btn {
@@ -1443,7 +1444,7 @@ body {
   gap: 16px 24px;
   margin-bottom: 48px;
 
-  width: 270px;
+  width: 100%;
 }
 
 .filters-btn {
@@ -1487,12 +1488,10 @@ body {
 
   .filters-list {
     display: flex;
-    flex-wrap: nowrap;
+
     justify-content: center;
 
     margin-bottom: 64px;
-
-    width: 100%;
   }
 
   .filters-btn {
