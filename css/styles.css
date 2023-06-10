@@ -1155,6 +1155,7 @@ body {
 
   transition: opacity var(--transition-hover-focus),
     visibility var(--transition-hover-focus);
+  overflow: auto;
 }
 
 .backdrop.is-hidden {
@@ -1165,11 +1166,11 @@ body {
 
 .modal {
   position: absolute;
-  top: 50%;
+  top: 80px;
   left: 50%;
   padding: 72px 16px 16px;
 
-  width: 100%;
+  width: calc(100% - 36px);
   max-width: 392px;
   min-height: 584px;
 
@@ -1179,7 +1180,7 @@ body {
 
   border-radius: 4px;
 
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   transition: transform var(--transition-hover-focus);
 }
 
