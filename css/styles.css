@@ -1166,7 +1166,7 @@ body {
 
 .modal {
   position: absolute;
-  top: 80px;
+  top: 96px;
   left: 50%;
   padding: 72px 16px 16px;
 
@@ -1228,6 +1228,12 @@ body {
     padding: 72px 24px 24px;
 
     max-width: 408px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .modal {
+    top: 80px;
   }
 }
 
