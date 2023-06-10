@@ -62,6 +62,10 @@ body {
   background-color: var(--basic-bg-color);
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .container {
   padding-left: 16px;
   padding-right: 16px;
