@@ -1168,8 +1168,6 @@ body.modal-open {
   pointer-events: none;
 }
 
-
-
 .modal {
   position: absolute;
   top: 96px;
@@ -1231,14 +1229,18 @@ body.modal-open {
 
 @media screen and (min-width: 768px) {
   .modal {
-    top: 50%;
-    transform: translate(-50%, -50%);
     padding: 72px 24px 24px;
 
     max-width: 408px;
   }
 }
 
+@media screen and (min-width: 1158px) {
+  .modal {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
 
 /* MODAL FORM */
 
